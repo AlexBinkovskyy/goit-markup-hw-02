@@ -1,0 +1,145 @@
+body {
+  background-color: var(--main-bkgrnd-color);
+  font-family: "Roboto" sans-serif;
+  font-style: normal;
+  color: var(--navyblue);
+}
+
+.link {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--navyblue);
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.button-text {
+  color: var(--white);
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+}
+
+.hero-button {
+  background-color: var(--iris);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var (--ocean);
+}
+
+
+.list {
+  list-style: none;
+}
+
+.list .link:hover,
+.list .link:focus {
+  color: var(--ocean);
+}
+
+.link.adr-mail,
+.link.adr-phone {
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.link.adr-mail:hover,
+.link.adr-mail:focus,
+.link.adr-phone:hover,
+.link.adr-phone:focus {
+  color: var(--ocean);
+}
+
+/* VARIABLES */
+:root {
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+  --slate: #434455;
+  --main-bkgrnd-color: #ffffff;
+  --cloud: #f4f4fd;
+  --ocean: #404bbf;
+  --white: #ffffff;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-dark {
+  color: var(--navyblue);
+}
+
+.logo-light {
+  color: var(--cloud);
+}
+
+.hero-section {
+  background-color: var(--navyblue);
+}
+
+.title-1 {
+  color: var(--white);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.title-2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.small-text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.48px;
+}
+
+.body-medium {
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
+
+.benefits-text {
+  color: var(--slate);
+}
+
+
+
+footer {
+  background-color: var(--navyblue);
+}
+.footer-text {
+  color: var(--cloud);
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+}
