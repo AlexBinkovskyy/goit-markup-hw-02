@@ -1,8 +1,8 @@
 body {
   background-color: var(--main-bkgrnd-color);
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--navyblue);
+  color: #434455;
 }
 
 .link {
@@ -32,6 +32,10 @@ button {
   background-color: var (--ocean);
 }
 
+.address {
+  font-style: normal
+}
+
 
 .list {
   list-style: none;
@@ -42,17 +46,14 @@ button {
   color: var(--ocean);
 }
 
-.link.adr-mail,
-.link.adr-phone {
+.link.adr-item {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-.link.adr-mail:hover,
-.link.adr-mail:focus,
-.link.adr-phone:hover,
-.link.adr-phone:focus {
+.link.adr-item:hover,
+.link.adr-item:focus,{
   color: var(--ocean);
 }
 
