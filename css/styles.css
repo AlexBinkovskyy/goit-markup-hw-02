@@ -30,9 +30,8 @@ button {
 }
 
 .address {
-  font-style: normal
+  font-style: normal;
 }
-
 
 .list {
   list-style: none;
@@ -50,7 +49,7 @@ button {
 }
 
 .link.adr-item:hover,
-.link.adr-item:focus,{
+.link.adr-item:focus {
   color: var(--ocean);
 }
 
@@ -130,8 +129,6 @@ button {
 .benefits-text {
   color: var(--slate);
 }
-
-
 
 footer {
   background-color: var(--navyblue);
