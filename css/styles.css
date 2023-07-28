@@ -17,8 +17,8 @@ button {
 }
 
 .hero-button {
-  background-color: var(--iris);
-  color: var(--white);
+  background-color: #4D5AE5;
+  color: #ffffff;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
@@ -26,7 +26,7 @@ button {
 
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var (--ocean);
+  background-color: #404BBF;
 }
 
 .address {
