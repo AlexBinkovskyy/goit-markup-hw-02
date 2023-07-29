@@ -98,7 +98,6 @@ button {
 }
 
 .title-second {
-  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -108,6 +107,7 @@ button {
 }
 
 .title-third {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -129,7 +129,7 @@ button {
 
 .benefits-text {
   color: var(--slate);
-  line-height: 1,5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
 
@@ -141,3 +141,4 @@ footer {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+
