@@ -112,7 +112,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -158,14 +158,15 @@ footer {
 }
 
 .footer {
+  background-color: var(--navyblue);
 }
 
 .filter-item {
 }
 
 .filter-button {
-  color: #4D5AE5;
-  background-color: #F4F4FD;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
@@ -174,5 +175,11 @@ footer {
 .filter-button:hover,
 .filter-button:focus {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
+}
+
+.portf-list-text {
+  color: var(--slate);
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
