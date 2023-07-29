@@ -98,6 +98,7 @@ button {
 }
 
 .title-second {
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -142,3 +143,6 @@ footer {
   letter-spacing: 0.02em;
 }
 
+.our-team {
+  background-color: var(--cloud);
+}
